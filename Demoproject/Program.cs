@@ -10,13 +10,17 @@ namespace Demoproject
     {
         static void Main(string[] args)
         {
-           // Console.WriteLine("Hello word");
-           // Console.ReadLine();
+            Console.WriteLine("Hello word from cg");
+            Console.ReadLine();
             Program p = new Program();
             p.printName();
         }
-        
-    public void printName() {
+        /// <summary>
+        /// it is a first code
+        /// </summary>
+
+        public void printName()
+        {
             Console.WriteLine("hello word");
             Console.ReadLine();
         }
